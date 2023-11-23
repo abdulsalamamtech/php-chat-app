@@ -1,0 +1,160 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    line-height: 1.5;
+}
+.container, #output, #form{
+    width: 60%;
+    margin: 40px auto;
+}
+#output{
+    border: 1px solid gray;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 300px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#form, .row{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row{
+    flex-direction: row;
+    gap: 0;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+select{
+    padding: 10px;
+}
+
+#message_data, #btn{
+    padding: 8px;
+    min-width: 100px;
+}
+#btn{
+    width: max-content;
+}
+
+
+
+.form-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.form-content select, .form-content #btn{
+    margin-top: 10px;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.logout{
+    padding: 8px;
+    width: 100px;
+}
+
+
+input{
+    padding: 8px;
+    width: 100%;
+}
+
+
+.chat-container{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    position: relative;
+    /* padding: 10px; */
+    overflow-anchor: none; /* Ensures the scroll stays at the bottom when new content is added */
+
+}
+.chat-text{
+    padding: 10px 0;
+    font-size: 18px;
+    max-width: 100%;
+}
+.chat-message, .chat-message-from{
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.chat-message{
+    background-color: lightblue;
+    margin-right: 10%;
+    height: auto;
+}
+.chat-message-from{
+    background-color: lightgreen;
+    margin-left: 10%;
+}
+
+
+
+.con{
+    width: 60%;
+    margin: 0 auto;
+    margin: 30px auto;
+}
+.output{
+    border: 1px solid blue;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.output::-webkit-scrollbar-button{
+    bottom: 0;
+}
+.output::-webkit-scrollbar{
+    vertical-align:super;
+}
+.chat .container{
+    width: auto;
+
+}
+.chat .message{
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.chat .text{
+    font-size: 18px;
+}
+.chat p{
+    padding: 10px 10px 10px 0px;
+}
+.me{
+    background-color: lightgreen;
+    margin-left: 10%;
+}
+.from{
+    background-color: lightblue;
+    margin-right: 10%;
+}
